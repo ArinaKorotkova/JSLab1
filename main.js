@@ -131,8 +131,11 @@ let chislo1 = prompt('Введите число 1');
 let chislo2 = prompt('Введите число 2');
 let chislo3 = prompt('Введите число 3');
 
-let chisla = [Number(chislo1), Number(chislo2), Number(chislo3)];
-console.log(chisla.sort());
+let array = [chislo1, chislo2, chislo3];
+
+console.log(array);
+
+console.log(array. sort(function(a, b){return a - b}));
 
 
 let chisl1 = prompt('Введите число 1');
